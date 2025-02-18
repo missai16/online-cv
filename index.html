@@ -3,123 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Online CV</title>
+    <title>Online CV</title>
     <style>
-        /* General Styling */
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
         }
-        a {
-            text-decoration: none;
-            color: blue;
-        }
-        ul {
-            list-style: none;
-            padding: 0;
-        }
-        li {
-            margin: 5px 0;
-        }
-
-        /* Header Styling */
         header {
-            background: #ddd;
+            background-color: lightgray;
             padding: 10px;
-            font-size: 18px;
         }
-
-        /* Image Section */
-        .image-container {
-            margin: 20px 0;
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        .page-content {
+            margin-top: 20px;
         }
         img {
-            width: 150px;
-            display: block;
-            margin: 0 auto;
+            width: 100px;
+            height: auto;
         }
-
-        /* Main Content */
-        .page-content {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: white;
-            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Section Styling */
-        .section {
-            padding: 10px;
-            border-top: 1px solid #ccc;
-        }
-
-        /* Large Heading */
-        h1 {
-            font-size: 2em;
-            color: black;
-        }
-
-        /* Footer */
         footer {
-            background: #ddd;
-            padding: 10px;
             margin-top: 20px;
+            background-color: lightgray;
+            padding: 10px;
         }
     </style>
 </head>
 <body>
 
-    <!-- Header with Navigation Links -->
     <header>
-        <p>I am header with an unordered list of hyperlinks</p>
-        <ul>
-            <li><a href="#about">I am About link and my href value is #about</a></li>
-            <li><a href="#education">I am Education link and my href value is #education</a></li>
-            <li><a href="#skills">I am Skills link and my href value is #skills</a></li>
-            <li><a href="#portfolio">I am Portfolio link and my href value is #portfolio</a></li>
-            <li><a href="#contact">I am Contact link and my href value is #contact</a></li>
-        </ul>
+        <h2>I am header with an unordered list of hyperlinks</h2>
+        <nav>
+            <ul>
+                <li><a href="#about">I am About link and my href value is #about</a></li>
+                <li><a href="#education">I am Education link and my href value is #education</a></li>
+                <li><a href="#skills">I am Skills link and my href value is #skills</a></li>
+                <li><a href="#portfolio">I am Portfolio link and my href value is #portfolio</a></li>
+                <li><a href="#contact">I am Contact link and my href value is #contact</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <!-- Image Section -->
-    <div class="image-container">
-        <img src="https://via.placeholder.com/150" alt="Profile Image">
+    <section>
+        <img src="star.png" alt="A purple star">
         <p>I am an image and I'm all by myself</p>
-    </div>
+    </section>
 
-    <!-- Main Content -->
     <div class="page-content">
         <p>I am division with class equal to page-content that encloses all other division elements below</p>
-
-        <!-- Large Heading -->
+        
         <h1>Hello! I am a text with the largest heading</h1>
-
-        <!-- Sections -->
-        <div class="section" id="about">
+        
+        <div id="about">
             <p>I am division with id equal to about</p>
         </div>
-        <div class="section" id="education">
+        
+        <div id="education">
             <p>I am division with id equal to education</p>
         </div>
-        <div class="section" id="skills">
+        
+        <div id="skills">
             <p>I am division with id equal to skills</p>
         </div>
-        <div class="section" id="portfolio">
+        
+        <div id="portfolio">
             <p>I am division with id equal to portfolio</p>
         </div>
-        <div class="section" id="contact">
+        
+        <div id="contact">
             <p>I am division with id equal to contact</p>
         </div>
     </div>
 
-    <!-- Footer -->
     <footer>
-        <p>I am a footer, the last section of this page</p>
+        <p>I am a footer the last section of this page</p>
     </footer>
+
+</body>
+</html>
+
 
 </body>
 </html>
